@@ -2,6 +2,9 @@ import Modal from '../UI/Modal';
 import classes from './Login.module.css';
 import { useRef, useState } from 'react';
 
+
+
+
 const isEmpty = (value) => value.trim() === '';
 const isFiveChars = (value) => value.trim().length === 10;
 
